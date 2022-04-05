@@ -21,39 +21,6 @@ export const CreditoContext = createContext(initialState)
 export const CreditoProvider = ({ children }) => {
   const [state, dispatch] = useReducer(creditoReducer, initialState)
 
-  // *** ACTIONS ***
-
-  // Cambiar el texto de "variable1"
-  // function agregarUsuario(new_user) {
-  //   let arregloUsuarios = state.listaDeUsuarios
-  //   let usuario = new_user.length - 1
-  //   usuario = new_user.charAt(usuario)
-  //   usuario = {ultimaLetra: usuario}
-  //   arregloUsuarios.push(usuario)
-  //   salvarDatos(JSON.stringify(arregloUsuarios))
-  //   dispatch({
-  //     type: 'AGREGAR_USUARIO',
-  //     payload: arregloUsuarios
-  //   })
-  // }
-
-  // function salvarDatos(datos) {
-  //   // salvar al LocalStorage(datos)
-  // }
-
-
-  // function guardarCreditos() {
-  //   localStorage.setItem('creditos', JSON.stringify(state.creditos))
-  // }
-
-  // function cargarCreditos() {
-  //   let creditos = JSON.parse(localStorage.getItem('creditos'))
-  //   dispatch({
-  //     type: 'CARGAR_CREDITOS',
-  //     payload: creditos
-  //   })
-  // }
-
   function modificarCreditoEditado(credito) {
     let tipoCredito = state.cualCreditoEstoyEditando[0]
     let numeroDeCredito = state.cualCreditoEstoyEditando[1]
@@ -170,8 +137,6 @@ export const CreditoProvider = ({ children }) => {
     })
   }
 
-
-  // *** PROVIDER ***
 
   return (
     <CreditoContext.Provider 
