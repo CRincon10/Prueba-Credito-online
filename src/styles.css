@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(../public/assets/img/pattern.png);
+}
+
+.wrap {
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.icon,
+.gear {
+    font-family: "WebsymbolsRegular";
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}

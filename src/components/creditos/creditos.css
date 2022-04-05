@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url("../../../public/assets/fonts/TrebuchetMS.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    
+    src: url("../../../public/assets/fonts/BebasNeue.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WebsymbolsRegular";
+    src: url("../../../public/assets/fonts/websymbols-regular-webfont.eot");
+    src: url("../../../public/assets/fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../../../public/assets/fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("../../../public/assets/fonts/websymbols-regular-webfont.ttf") format("truetype"),
+        url("../../../public/assets/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing:border-box;
+    font-size: BebasNeue;
+}
+
+
+.main_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario_credito{
+    flex: 1 1 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+
+
+.h3_formulario{
+  text-align: center;  
+  margin-bottom: 10px ;
+  font-size:  BebasNeue;
+}
+
+.formulario_credito_usuario{
+	width:100%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: rgb(219, 221, 227);
+}
+
+.formulario_credito_usuario input[type="text"],
+.formulario_credito_usuario input[type="number"],
+.formulario_credito_usuario select{
+	width:100%;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+
+.formulario_credito_usuario button,
+.btn{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color: rgb(45, 47, 54);
+  cursor: pointer;
+} 
+
+.formulario_credito_usuario button:hover,
+.btn:hover{
+	
+  background-color: rgb(59, 63, 78);
+    
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: remove;
+    border: 3px solid rgb(111, 107, 111);
+    text-align: center;
+    
+    
+  }
+thead th{
+background-color: rgb(45, 47, 54);
+color: white;
+font-size: 1.2em;
+padding: 10px;
+border-radius: 3px;
+}
+tbody td{
+    padding: 10px;
+    border: 1px solid rgb(111, 107, 111);
+}
+  thead th:nth-child(1) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 15%;
+  }
+  thead th:nth-child(5) {
+    width: 15%;
+  }
+  thead th:nth-child(6) {
+    width: 15%;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+
+
+
+.h3_credito{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+
+.creditos_sidebar {
+    background-color: rgb(219, 221, 227);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    font-family: "BebasNeue";
+    font-size: 24px;
+    
+    letter-spacing: 1px;
+}
+
+.creditos_sidebar-navbar{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.creditos_new-entrey{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    transition: color .3s ease; 
+    font-size: 30px;
+
+}
+.creditos_new-entrey:hover{
+    color: rgb(155, 151, 151)
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+
+.consulta_creditos{
+    background-color: rgb(45, 47, 54);
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: transform .3s all;
+    height: 100%;
+    width: 100%;
+}
+
+.credito_entry-body-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.credito_entry-body{
+  padding: 10px;
+  width: 50%;
+}
+
+.credito_entry-title{ 
+  font-size: 40px;
+  
+  width: 50%;
+}
+
+.credito_entry-content{
+  font-size: 15px;
+  width: 50%;
+}
+
+.journal__entry-date-box{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  padding: 5px;
+
+}
+
+
