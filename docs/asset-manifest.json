@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e2298e4.css",
+    "main.js": "/static/js/main.205923c1.js",
+    "static/media/TrebuchetMS.ttf": "/static/media/TrebuchetMS.870daf6c8bfef7c5d20c.ttf",
+    "static/media/BebasNeue.otf": "/static/media/BebasNeue.7d8d1ee35def7f4e4c20.otf",
+    "static/media/websymbols-regular-webfont.svg": "/static/media/websymbols-regular-webfont.f214d64d1128030a23b0.svg",
+    "static/media/websymbols-regular-webfont.ttf": "/static/media/websymbols-regular-webfont.499dc72dd2cb7f154b78.ttf",
+    "static/media/websymbols-regular-webfont.woff": "/static/media/websymbols-regular-webfont.353f403afa6575da6d2b.woff",
+    "static/media/websymbols-regular-webfont.eot": "/static/media/websymbols-regular-webfont.c7d540acaac59939f36b.eot",
+    "index.html": "/index.html",
+    "main.1e2298e4.css.map": "/static/css/main.1e2298e4.css.map",
+    "main.205923c1.js.map": "/static/js/main.205923c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e2298e4.css",
+    "static/js/main.205923c1.js"
+  ]
+}
